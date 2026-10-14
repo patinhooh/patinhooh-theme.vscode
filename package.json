@@ -7,7 +7,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patinhooh/patinhooh-vscode-theme.git"
+    "url": "https://github.com/patinhooh/patinhooh-theme.vscode.git"
   },
   "engines": {
     "vscode": "^1.92.0"
