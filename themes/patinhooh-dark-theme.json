@@ -141,7 +141,7 @@
     /*
      * Activity Bar
      */
-    "activityBar.background": "#101010",
+    "activityBar.background": "#181818",
     "activityBar.dropBorder": "#b7134f",
     "activityBar.foreground": "#b7134f",
     "activityBar.inactiveForeground": "#505050",
@@ -149,14 +149,14 @@
     "activityBarBadge.background": "#b7134f",
     "activityBarBadge.foreground": "#f8f8f0",
     "activityBar.activeBorder": "#b7134f",
-    "activityBar.activeBackground": "#181818",
+    "activityBar.activeBackground": "#303030",
     "activityBar.activeFocusBorder": "#00000000",
-    "activityBarTop.background": "#101010",
+    "activityBarTop.background": "#181818",
     "activityBarTop.dropBorder": "#b7134f",
     "activityBarTop.foreground": "#b7134f",
     "activityBarTop.inactiveForeground": "#505050",
     "activityBarTop.activeBorder": "#b7134f",
-    "activityBarTop.activeBackground": "#181818",
+    "activityBarTop.activeBackground": "#303030",
     /*
      * Profiles
      */
@@ -167,7 +167,7 @@
     /*
      * Side Bar
      */
-    "sideBar.background": "#181818",
+    "sideBar.background": "#101010",
     "sideBar.foreground": "#f8f8f0",
     "sideBar.border": "#303030",
     "sideBar.dropBackground": "#181818",
@@ -248,7 +248,7 @@
     /*
      * Editor Colors
      */
-    "editor.background": "#151515",
+    "editor.background": "#101010",
     "editor.foreground": "#f8f8f0",
     "editorLineNumber.foreground": "#757571",
     "editorLineNumber.activeForeground": "#f92672",
@@ -368,7 +368,7 @@
     "editorUnnecessaryCode.border": "#f8f8f088",
     "editorUnnecessaryCode.opacity": "#00000088",
     // Gutter Numbers
-    "editorGutter.background": "#151515",
+    "editorGutter.background": "#101010",
     "editorGutter.modifiedBackground": "#00a7c9",
     "editorGutter.addedBackground": "#00d900",
     "editorGutter.deletedBackground": "#de1000",
@@ -518,7 +518,7 @@
     /*
      * Panel Colors
      */
-    "panel.background": "#101010",
+    "panel.background": "#181818",
     "panel.border": "#303030",
     "panel.dropBorder": "#f8f8f0",
     "panelTitle.activeBorder": "#f92672",
@@ -529,7 +529,7 @@
     "panelSection.dropBackground": "#50505033",
     "panelSectionHeader.background": "#282828",
     "panelSectionHeader.foreground": "#f8f8f0",
-    "panelStickyScroll.background": "#101010",
+    "panelStickyScroll.background": "#181818",
     "panelStickyScroll.border": "#00000000",
     "panelStickyScroll.shadow": "#000000d8",
     // TODO didn't find it
@@ -675,13 +675,13 @@
     /*
      * Integrated Terminal Colors
      */
-    "terminal.background": "#151515",
+    "terminal.background": "#101010",
     "terminal.border": "#303030",
-    "terminal.foreground": "default",
+    "terminal.foreground": "#f8f8f0",
     "terminal.ansiWhite": "#bbbbb2",
     "terminal.ansiBrightWhite": "#ffffff",
-    "terminal.ansiBlack": "#282828",
-    "terminal.ansiBrightBlack": "#757571",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBrightBlack": "#282828",
     "terminal.ansiBlue": "#176fff",
     "terminal.ansiBrightBlue": "#04b0ff",
     "terminal.ansiCyan": "#1ccad8",
@@ -720,7 +720,7 @@
      * Debug Colors
      */
     // TODO
-    "debugToolBar.background": "#181818",
+    "debugToolBar.background": "#101010",
     "debugToolBar.border": "#303030",
     "editor.stackFrameHighlightBackground": "default",
     "editor.focusedStackFrameHighlightBackground": "default",
@@ -901,35 +901,34 @@
     /*
      * Notebook Colors
      */
-    // TODO
-    "notebook.editorBackground": "default",
-    "notebook.cellBorderColor": "default",
-    "notebook.cellHoverBackground": "default",
-    "notebook.cellInsertionIndicator": "default",
-    "notebook.cellStatusBarItemHoverBackground": "default",
-    "notebook.cellToolbarSeparator": "default",
-    "notebook.cellEditorBackground": "default",
-    "notebook.focusedCellBackground": "default",
-    "notebook.focusedCellBorder": "default",
-    "notebook.focusedEditorBorder": "default",
-    "notebook.inactiveFocusedCellBorder": "default",
-    "notebook.inactiveSelectedCellBorder": "default",
-    "notebook.outputContainerBackgroundColor": "default",
-    "notebook.outputContainerBorderColor": "default",
-    "notebook.selectedCellBackground": "default",
-    "notebook.selectedCellBorder": "default",
-    "notebook.symbolHighlightBackground": "default",
-    "notebookScrollbarSlider.activeBackground": "default",
-    "notebookScrollbarSlider.background": "default",
-    "notebookScrollbarSlider.hoverBackground": "default",
-    "notebookStatusErrorIcon.foreground": "default",
-    "notebookStatusRunningIcon.foreground": "default",
-    "notebookStatusSuccessIcon.foreground": "default",
-    "notebookEditorOverviewRuler.runningCellForeground": "default",
+    "notebook.editorBackground": "#181818",
+    "notebook.cellBorderColor": "#303030",
+    "notebook.cellHoverBackground": "#181818",
+    "notebook.cellInsertionIndicator": "#b7134f",
+    "notebook.cellStatusBarItemHoverBackground": "#282828",
+    "notebook.cellToolbarSeparator": "#303030",
+    "notebook.cellEditorBackground": "#151515",
+    "notebook.focusedCellBackground": "#282828",
+    "notebook.focusedCellBorder": "#b7134f",
+    "notebook.focusedEditorBorder": "#b7134f",
+    "notebook.inactiveFocusedCellBorder": "#30303088",
+    "notebook.inactiveSelectedCellBorder": "#30303050",
+    "notebook.outputContainerBackgroundColor": "#101010",
+    "notebook.outputContainerBorderColor": "#303030",
+    "notebook.selectedCellBackground": "#404040",
+    "notebook.selectedCellBorder": "#b7134f50",
+    "notebook.symbolHighlightBackground": "#50505050",
+    "notebookScrollbarSlider.activeBackground": "#505050d8",
+    "notebookScrollbarSlider.background": "#40404050",
+    "notebookScrollbarSlider.hoverBackground": "#50505088",
+    "notebookStatusErrorIcon.foreground": "#b00b00",
+    "notebookStatusRunningIcon.foreground": "#00a7c9",
+    "notebookStatusSuccessIcon.foreground": "#00d900",
+    "notebookEditorOverviewRuler.runningCellForeground": "#00a7c9",
     /*
      * Chart Colors
      */
-    // TODO
+     // TODO
     "charts.foreground": "default",
     "charts.lines": "default",
     "charts.red": "default",
